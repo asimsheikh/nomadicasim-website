@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>The website of world traveller nomadic asim</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200,400,700,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: 'verdana', sans-serif;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      p {
+        margin-bottom: 5px;
+      }
+      section {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        height: 100vh;
+        /* justify-content: center;
+        align-items: center; */
+        color: white;
+        position: relative;
+      }
+      section > * {
+        position: relative;
+        z-index: 2;
+      }
+      section:nth-of-type(1) {
+        background-image: url(/mountains2.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      section:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+      }
+      .hero-text {
+        font-size: 6rem;
+        padding-top: 5rem;
+        padding-left: 5rem;
+        padding-bottom: 2rem;
+        line-height: 7rem;
+      }
+
+      .under-text {
+        font-size: 2rem;
+        padding-left: 5rem;
+        opacity: 0.6;
+        font-weight: 300;
+      }
+
+      body {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        margin: 0;
+        padding: 0;
+        color: white;
+        background-color: black;
+      }
+
+      .nomadic {
+        font-weight: 400;
+      }
+
+      .header {
+        padding-left: 5rem;
+      }
+
+      .hero-text {
+        font-size: 6rem;
+        padding-top: 5rem;
+        padding-left: 5rem;
+        padding-bottom: 2rem;
+        line-height: 7rem;
+      }
+
+      .under-text {
+        font-size: 2rem;
+        padding-left: 5rem;
+        opacity: 0.6;
+        font-weight: 300;
+      }
+
+      .challenge-text > p {
+        padding: 0;
+        margin: 0;
+        padding-left: 5rem;
+      }
+
+      .bottom-bar {
+        width: 4rem;
+        border-bottom: 4px solid lightskyblue;
+        margin-left: 5rem;
+        margin-top: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <section>
+        <div class="header">
+          <h1><span class="nomadic">nomadic</span>asim</h1>
+        </div>
+        <div class="challenge-text">
+          <p>40</p>
+          <p>Countries</p>
+          <p>Under $10K</p>
+        </div>
+        <div class="bottom-bar"></div>
+        <div class="hero-text">
+          The one hundred<br />
+          country mission
+        </div>
+
+        <div class="under-text">
+          <p>It was only meant to be a four day trip to Thailand ...</p>
+        </div>
+      </section>
+      <section><a href="/links.html">Links page</a></section>
+    </div>
+  </body>
+</html>
