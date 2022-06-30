@@ -1,11 +1,10 @@
-# fresh project
+# The nomadicasim.com website
 
-### Usage
+The code for the website.
 
-Start the project:
+Technology used 
+ 
+  - Deno deploy
+  - Fresh web framework
 
-```
-deno task start
-```
 
-This will watch the project directory and restart as necessary.
