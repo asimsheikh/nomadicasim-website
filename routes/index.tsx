@@ -5,14 +5,15 @@ import Counter from "../islands/Counter.tsx";
 
 export default function Home() {
   return (
-    <div class={tw`p-4 mx-auto max-w-screen-md`}>
+    <div class={tw`p-4 mx-auto max-w-screen-md text-center`}>
       <img
         src="/nomadiclogo.svg"
         alt="nomadic asim logo"
 		class={tw`h-20`}
       />
-      <p class={tw`mt-20 font-bold text-3xl`}>Hi,</p>
-      <p class={tw`mt-10 font-bold text-3xl`}>Welcome to my site</p>
+      <p class={tw`mt-20 font-black text-gray-300 text-9xl`}>Hi,</p>
+      <p class={tw`mt-10 font-black text-9xl`}>Explore.</p>
+      <p class={tw`mt-10 font-black text-9xl`}>Everywhere.</p>
     </div>
   );
 }
