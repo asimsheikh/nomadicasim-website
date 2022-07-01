@@ -11,9 +11,9 @@ export default function Home() {
         alt="nomadic asim logo"
 		class={tw`h-20`}
       />
-      <p class={tw`mt-20 font-black text-gray-300 text-9xl`}>Hi,</p>
-      <p class={tw`mt-10 font-black text-9xl`}>Explore.</p>
+      <p class={tw`mt-20 font-black text-9xl`}>Explore.</p>
       <p class={tw`mt-10 font-black text-9xl`}>Everywhere.</p>
+      <p class={tw`mt-20 font-black text-gray-300 text-6xl`}>A seeker, a learner, a long term world traveller</p>
     </div>
   );
 }
